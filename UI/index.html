@@ -8,20 +8,28 @@
 <body>
     <div id="container">
         <div id="image"> </div><br />
-        <label for="a-dimension">Aperture:&nbsp; 0 
-            <input id="a-dimension" type="range" min="0" max="7"> 
-        7</label>
-        <div id="currentA" class="displayResult"> </div>
-        <br /><br />
-        <label for="s-dimension">F-stop:&nbsp; 0 
-            <input id="s-dimension" type="range" min="0" max="7"> 
-        7</label>
-        <div id="currentS" class="displayResult"> </div>
-        <br /><br />
-        <label for="i-dimension">ISO:&nbsp; 0 
-            <input id="i-dimension" type="range" min="0" max="7"> 
-        7</label>
-        <div id="currentI" class="displayResult"> </div>
+        <div id="settings">
+            <label for="a-dimension">
+                Aperture:&nbsp; 2.8
+                <input id="a-dimension" type="range" min="0" max="6">
+                22
+            </label>
+            <div id="currentA" class="displayResult"> </div>
+            <br /><br />
+            <label for="s-dimension">
+                F-stop:&nbsp; 2000
+                <input id="s-dimension" type="range" min="0" max="6">
+                30
+            </label>
+            <div id="currentS" class="displayResult"> </div>
+            <br /><br />
+            <label for="i-dimension">
+                ISO:&nbsp; 100
+                <input id="i-dimension" type="range" min="0" max="6">
+                6400
+            </label>
+            <div id="currentI" class="displayResult"> </div>
+        </div>
         <br /><br /><br />
         <div id="newUrl"></div>
     </div>

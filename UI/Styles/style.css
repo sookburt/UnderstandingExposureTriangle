@@ -1,18 +1,26 @@
 ﻿#image {
     width: 300px;
     height: 300px;
+    margin:auto;
     background: url("http://placekitten.com/g/300/250") no-repeat center;
     opacity: 1;
 }
 
 #container {
-    width: 500px;
+    width: 800px;
     height: 600px;
     padding: 20px;
     margin: auto;
     background-color: #FDF1E7;
     font-family: arial, san-serif;
     color: #0C2427;
+}
+
+#settings{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    flex-basis: auto;
 }
 
 .displayResult {
